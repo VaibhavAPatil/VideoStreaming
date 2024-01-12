@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "A Backend For Video Streaming Platform Like Youtube",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon src/index.js"
   },
   "keywords": [
     "Video",
@@ -15,5 +17,8 @@
     "MongoDB"
   ],
   "author": "Vaibhav Patil",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
